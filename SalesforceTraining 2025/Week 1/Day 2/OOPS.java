@@ -107,11 +107,61 @@ class EqualTriangle extends  Triangle{
 }
 
 // Encapsulation
-class Animal{
-    public void walk(){
-        System.out.println("Animal walkingg...");
+abstract class Animal{
+    abstract void walk();
+    public void eat(){
+        System.out.println("Animal eating..");
+    }
+
+    Animal(){
+        System.out.println("New animal created..");
     }
 }
+
+class Horse extends Animal{
+    Horse(){
+        System.out.println("Created a new Horse");
+    }
+    public void walk(){
+        System.out.println("walks on 4 legs.");
+    }
+}
+
+class Chicken extends Animal{
+    Chicken(){
+        System.out.println("created a new chicken");
+    }
+    public void walk(){
+        System.out.println("walks on 2 legs.");
+    }
+}
+
+
+// Interfaces
+interface Bird{
+    int eyes = 2;
+    void fly(); //by defaults public,abstract
+}
+
+interface Herbivore{
+
+}
+
+class Eagle implements Bird{
+    public void fly(){
+        System.out.println("Flying eagle...");
+    }
+}
+
+// multilevel inheritance
+// class Deer implements Bird,Herbivore{
+//     public void walk(){
+//         System.out.println("multiple inheritance");
+//     }
+// }
+
+
+
 
 // Main
 public class OOPS {
@@ -186,6 +236,45 @@ public class OOPS {
         System.out.println();
         System.out.println("-------4.Abstraction (showing important only, hides functionaity unnecssary info)--------");
 
+        Horse horse = new Horse();
+        horse.walk();
+
+        Chicken chicken = new Chicken();
+        chicken.walk();
+
+        // Animal animal = new Animal(); //abstract(cannot instantiate) -- runtime error
+        // animal.walk();
+
+        horse.eat();//inherits the Animal class methods
+
+        // final -- similar to const
+
+
+        System.out.println("2.Interfaces (abstractsion) ");
+        System.out.println("-- similar to class but no constructors\n -- use implements keyword \n -- all fields are public,static,final by default. \n -- methods public & abstract by default. \n --");
+
+        Eagle newEagle = new Eagle();
+        newEagle.fly();
+
+        // Deer newdeer = new Deer();
+        // newdeer.walk();
+
+        System.out.println("-----static keyword------");
+        // static keyword -- once we implement it comes under this value only (school - all students belongs to same school)
+        Student.school = "IIT Hyd";
+        Student student1 = new Student();
+        Student student2 = new Student();
+        student1.name = "haryy";
+        student2.name = "Jhone";
+        
+        System.out.println("Info: "+student1.name+ "-"+ student1.school);
+        System.out.println("Info: "+student2.name+ "-"+ student2.school);
+
 
     }
+}
+
+class Student{
+    String name;
+   static String school;
 }
