@@ -13,7 +13,8 @@ class Pen{
     }
 }
 
-
+// class,obj,constructor
+// polymorphism
 class Employee{
     String name;
     int age;
@@ -44,9 +45,75 @@ class Employee{
         this.age = emp3.age;
     }
 
+    // overloadding -- Compile time (compile before run and checks the code)
+    public void printEmpInfo(String name){
+        System.out.println("Emp Name:"+name);
+    }
+
+     public void printEmpInfo(int age){
+        System.out.println("Emp Age:"+age);
+    }
+
+    //  public void printEmpInfo(String name){
+    //     System.out.println("Emp Name:"+name);
+    // }
+
+    public void printEmpInfo(String EmpId, String name){
+        System.out.println("Id: "+EmpId);
+        System.out.println("Name: "+name);
+    }
+
+    public void printEmpInfo(String EmpId,String name, int age){
+        System.out.println("ID: "+EmpId);
+        System.out.println("Name: "+name);
+        System.out.println("Age: "+age);
+    }
+
 }
 
+// Inheritance 
+// React -- resualbitly components (button/card)
+class Shape{
+    // parent
+    String color;
 
+    public void area(){
+        System.out.println("display area...");
+    }
+}
+
+class Triangle extends Shape{
+    // child -- single level
+    String type;
+
+    public void area(int b,int h){
+        System.out.println("Area: "+1/2*b*h);
+    }
+
+}
+
+// hierarchial 
+class Circle extends  Shape{
+    public void area(int r){
+        System.out.println("Area: "+ (3.14)*r*r);
+    }
+}
+
+class EqualTriangle extends  Triangle{
+    //sub-child -- multi level
+    public void area(int b,int h){
+            System.out.println("Area: "+1/2*b*h);
+        }
+}
+
+// Encapsulation
+class Animal{
+    public void walk(){
+        System.out.println("Animal walkingg...");
+    }
+}
+
+// Main
 public class OOPS {
     public static void main(String[] args) {
         System.out.println("------Class,Objects & constructors, (destrucor absent -- garbage collector)-----");
@@ -82,8 +149,43 @@ public class OOPS {
         // OOPS in Java
         System.out.println("------------OOPS--------");
         System.out.println("OOPS concepts in Java \n 1.Abstraction \n 2.Inheritence \n 3.Encapsulation \n 4.Polymorphism");
+        System.out.println();
 
-        System.out.println("----1.Polymorphism-----");
-        
+        System.out.println("----1.Polymorphism (overloading/compiletime,overriding/Runtime) -----");
+        // overloadding -- same function names repeated
+
+        Employee emp4 = new Employee();
+        emp4.EmpId = "EMP/76687";
+        emp4.name = "Jhon";
+        emp4.age = 56;
+
+        // calling
+        emp4.printEmpInfo();
+        System.out.println();
+
+        emp4.printEmpInfo(emp4.EmpId);
+        System.out.println();
+
+        emp4.printEmpInfo(emp4.EmpId,emp4.name);
+        System.out.println();
+
+        emp4.printEmpInfo(emp4.name);
+        System.out.println();
+
+         emp4.printEmpInfo(emp4.EmpId,emp4.name,emp4.age);
+        System.out.println();
+
+
+
+        System.out.println("----2.Inheritance (parent->child properties relation) -----");
+        System.out.println("----a.single level inheritance \n b.multi-level \n c.Hierarchial \n d.Hybrid inheritance -----");
+
+        System.out.println();
+        System.out.println("--------3.Encapsulation (properties+method) & DataHiding concept used--------");
+
+        System.out.println();
+        System.out.println("-------4.Abstraction (showing important only, hides functionaity unnecssary info)--------");
+
+
     }
 }
