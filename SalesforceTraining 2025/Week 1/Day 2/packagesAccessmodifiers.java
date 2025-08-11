@@ -1,4 +1,4 @@
-import Bank.*;
+//import Bank.*;
 
 
 // Access modifiers -- security (passwords,config etc..)
@@ -10,7 +10,7 @@ import Bank.*;
 
 public class packagesAccessmodifiers {
     public static void main(String[] args) {
-        Bank.Account account1 = new Bank.Account();
-        account1.name ="Customer 1";
+//        Bank.Account account1 = new Bank.Account();
+//        account1.name ="Customer 1";
     }
 }
