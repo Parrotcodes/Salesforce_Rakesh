@@ -269,6 +269,7 @@ public class OOPS {
         
         System.out.println("Info: "+student1.name+ "-"+ student1.school);
         System.out.println("Info: "+student2.name+ "-"+ student2.school);
+        
 
 
     }

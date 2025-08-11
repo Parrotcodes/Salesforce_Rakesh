@@ -1,4 +1,4 @@
-// package bank;
+// package Bank;
 
 class Account{
   public String name;
