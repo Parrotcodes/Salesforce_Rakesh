@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Assignemnts {
     
-    // Assignment Q4
+    // Assignment Q1
     private static void RevArray() {
         Scanner in = new Scanner(System.in);
         int[] arr =new int[10];
@@ -24,6 +24,7 @@ public class Assignemnts {
         // for (int i = 0; i < rev.length; i++) {
         //     System.out.println(arr[i]);
         // }
+//        foreach
         System.out.println("Original array");
         for (int num : arr) {
             System.out.print(num + " ");
@@ -105,6 +106,6 @@ public class Assignemnts {
         // Strings are immutable in Java
             // Once you create a String, it cannot be changed.
             // If you store a password in a String, it stays in the Java String pool or heap memory until garbage collection happens — and you can’t erase it manually.
-            // This means the password might linger in memory for an unknown amount of time, vulnerable to memory dumps or hacking tools.
+            // This means the password might present in memory for an unknown amount of time, vulnerable to memory leakage tools.
     }
 }
