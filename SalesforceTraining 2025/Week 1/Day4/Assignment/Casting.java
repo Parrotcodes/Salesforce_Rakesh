@@ -21,7 +21,7 @@ public class Casting{
 
 //        up casting - implicitly
         p.name = "Casting checking...";
-        p.meet();
+        p.meet(); //overiding method called
 
 //        upcasting - explicitly
 //        Child c = new Parent(); -- not possible we need to do it explicitly
@@ -29,6 +29,8 @@ public class Casting{
 
         c.id = 10;
         c.name= "Child Casting accessing parent var";
+        System.out.println(c.name);
+        System.out.println(c.id);
         c.meet();
     }
 }

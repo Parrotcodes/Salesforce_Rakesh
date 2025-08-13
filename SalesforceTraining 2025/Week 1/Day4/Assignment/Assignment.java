@@ -9,12 +9,13 @@ class B implements A
     {
 
         i = 222;
+
     }
 }
 
 class Assignement{
     public static void main(String[] args) {
-
+        System.out.println("The problem in the code is we need to intialize the 'i' value before assingning value");
     }
 }
 
