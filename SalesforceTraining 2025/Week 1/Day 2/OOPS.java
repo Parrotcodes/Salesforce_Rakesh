@@ -44,7 +44,9 @@ class Employee{
         this.name = emp3.name;
         this.age = emp3.age;
     }
+//----------------------------------------Class,objects,constructor (types-non,par,copy)-----------------
 
+//Polymorphism
     // overloadding -- Compile time (compile before run and checks the code)
     public void printEmpInfo(String name){
         System.out.println("Emp Name:"+name);
@@ -70,7 +72,7 @@ class Employee{
     }
 
 }
-
+//-------------------------------Polymorphism - (Overloadding)----------------------
 // Inheritance 
 // React -- resualbitly components (button/card)
 class Shape{
