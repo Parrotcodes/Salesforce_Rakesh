@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="">
+    <list default="true" id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="except day 5&#10;assignements done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Day2/OOPS/Encapsulation/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Day2/OOPS/Encapsulation/Encapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Day4/Assignments/CallingConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Day4/Assignments/CallingConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/WeekTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/WeekTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Plans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Plans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.NetworkDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeekTask.executor&quot;: &quot;Run&quot;,
-    &quot;Application.newC.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;week1&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Salesforce Training/SalesforceTraining 2025/WeekWsieTraining&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Salesforce Training/SalesforceTraining 2025/Week 1/Day2Task/WeekWsieTraining/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Abstraction.executor": "Run",
+    "Application.MemoryManagement$BookReader.executor": "Run",
+    "Application.NetworkDemo.executor": "Run",
+    "Application.WeekTask.executor": "Run",
+    "Application.newC.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "week1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Salesforce Training/SalesforceTraining 2025/WeekWsieTraining",
+    "onboarding.tips.debug.path": "D:/Salesforce Training/SalesforceTraining 2025/Week 1/Day2Task/WeekWsieTraining/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Salesforce Training\SalesforceTraining 2025\Week 1\Day2Task\WeekWsieTraining\src\Week_1_Task\model" />
@@ -76,6 +71,26 @@
       <recent name="D:\Salesforce Training\SalesforceTraining 2025\Week 1\Day2Task\WeekWsieTraining\src\Day2\OOPS" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="MemoryManagement$BookReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week1.Day5.Assignemnts.MemoryManagement$BookReader" />
+      <module name="WeekWsieTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week1.Day5.Assignemnts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MemoryManagement$BookReader" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="" />
@@ -84,6 +99,19 @@
       <option name="presentableId" value="Default" />
       <updated>1755064355755</updated>
     </task>
+    <task id="LOCAL-00001" summary="except day 5&#10;assignements done">
+      <option name="closed" value="true" />
+      <created>1755173742037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755173742037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="except day 5&#10;assignements done" />
+    <option name="LAST_COMMIT_MESSAGE" value="except day 5&#10;assignements done" />
   </component>
 </project>
