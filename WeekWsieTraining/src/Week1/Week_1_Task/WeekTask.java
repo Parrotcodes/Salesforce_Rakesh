@@ -1,62 +1,71 @@
 package Week1.Week_1_Task;
 
+//----------importing required classes of same package --> model-------
 import Week1.Week_1_Task.model.Employee;
+import Week1.Week_1_Task.model.EmployeeCategory;
 import Week1.Week_1_Task.model.Plans;
 import Week1.Week_1_Task.model.Users;
 
-import java.util.ArrayList;
-import java.util.List;
+//enum EmployeeCategory {
+//    FULL_TIME,
+//    PART_TIME,
+//    INTERN
+//}
 
+//1.Created Classes for Each required Catergory --> (Class,Overload Contructors with parameters) implemented
+//2.Imported Classes into main calss
+//3.Created Array of Objects for each class
+//4.Added values through array indexes
+//5.Displayed using for-loop for each Array of referenced objects
 
 public class WeekTask {
+
     public static void main(String[] args) {
 
+//---------Creating Objects------------------
+        Plans[] plans = new Plans[2];
+        Users[] users = new Users[2];
+        Employee[] employees = new Employee[2];
 
-        List<Employee> emplist = new ArrayList<>(
+//-------inserting parameter values---------
+        // add User
+        users[0] = new Users("Alice", "alice@example.com", "Basic");
+        users[1] = new Users("Bob", "bob@example.com", "Premium");
 
-                List.of(
-                        new Employee("Ahbhijeet", 1112, 23),
-                        new Employee("Rahul", 1112, 23),
-                        new Employee("Pradeep", 1112, 23),
-                        new Employee("Rohan", 1112, 23)
-                )
-        );
+        // Adding Employees
+        employees[0] = new Employee("John", 101, EmployeeCategory.FULL_TIME);
+        employees[1] = new Employee("Eve", 102, EmployeeCategory.INTERN);
 
-//        EmployeeList
-        for (int i = 0; i < emplist.size(); i++) {
-            System.out.println(emplist.get(i));
+        // add Plan
+        plans[0] = new Plans("Basic", 199.0, "5% discount");
+        plans[1] = new Plans("Premium", 499.0, "20% discount and extra premium features");
+
+//-------------output--------------
+        // users
+        System.out.println("\n---------Users--------");
+        for (int i = 0; i < users.length; i++) {
+            System.out.println(users[i]);
         }
 
-        System.out.println();
-//UserList
-        List<Users> userlist = new ArrayList<>(
-                List.of(
-                        new Users("User1",34,"normal"),
-                        new Users("User1",34,"normal"),
-                        new Users("User1",34,"normal")
-                )
-        );
-
-        for (Users u:userlist){
-            System.out.println(u);
+        // employees
+        System.out.println("\n--------Employees---------");
+        //we can also use foreach/enhanced-for loop concept instead of normal for-loop
+        for (int i = 0; i < employees.length; i++) {
+            System.out.println(employees[i]);
         }
 
-        System.out.println();
-
-//Plan model
-        List<Plans> plan = new ArrayList<>(
-                List.of(
-                        new Plans("normal"),
-                        new Plans("premium"),
-                        new Plans("guest")
-                )
-        );
-
-        for(Plans p : plan){
-            System.out.println(p);
+        // plans
+        System.out.println("\n-------Plans--------");
+        for (int i = 0; i < plans.length; i++) {
+            System.out.println(plans[i]);
         }
+
     }
 }
+
+
+
+
 
 
 

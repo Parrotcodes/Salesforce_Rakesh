@@ -1,28 +1,17 @@
 package Week1.Week_1_Task.model;
 
 public class Plans {
-    String type;
+    private String name;
+    private double price;
+    private String benefits;
 
-    public Plans(){
-
+    public Plans(String name, double price, String benefits) {
+        this.name = name;
+        this.price = price;
+        this.benefits = benefits;
     }
 
-    public Plans(String type) {
-        this.type = type;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    @Override
     public String toString() {
-        return "Plans{" +
-                "type='" + type + '\'' +
-                '}';
+        return "\nPlanName: " + name + "\nPrice: " + price + "\nBenefits: " + benefits + ".";
     }
 }

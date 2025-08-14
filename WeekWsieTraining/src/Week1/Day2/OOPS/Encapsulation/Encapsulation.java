@@ -22,8 +22,6 @@ class BankAccount{
 public class Encapsulation {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		BankAccount newacc = new BankAccount(1000);
 		newacc.deposit(100);
 		newacc.GetBalance();

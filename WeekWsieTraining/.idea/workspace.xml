@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="" />
+    <list default="true" id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Day2/OOPS/Encapsulation/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Day2/OOPS/Encapsulation/Encapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Day4/Assignments/CallingConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Day4/Assignments/CallingConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/WeekTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/WeekTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Plans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Plans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/Week_1_Task/model/Users.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,20 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.NetworkDemo.executor": "Run",
-    "Application.WeekTask.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Salesforce Training/SalesforceTraining 2025/WeekWsieTraining",
-    "onboarding.tips.debug.path": "D:/Salesforce Training/SalesforceTraining 2025/Week 1/Day2Task/WeekWsieTraining/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.NetworkDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeekTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.newC.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;week1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Salesforce Training/SalesforceTraining 2025/WeekWsieTraining&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Salesforce Training/SalesforceTraining 2025/Week 1/Day2Task/WeekWsieTraining/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Salesforce Training\SalesforceTraining 2025\Week 1\Day2Task\WeekWsieTraining\src\Week_1_Task\model" />

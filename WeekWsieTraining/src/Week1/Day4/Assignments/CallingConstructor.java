@@ -5,6 +5,7 @@ class Student{
     int age;
 
     Student(){
+//        override the constructor
         this("User",18);
         System.out.println("first constructor ......");
     }

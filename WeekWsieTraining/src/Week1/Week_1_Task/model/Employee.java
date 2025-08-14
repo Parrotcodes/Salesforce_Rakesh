@@ -1,50 +1,34 @@
 package Week1.Week_1_Task.model;
+//package Week1.Week_1_Task.model.EmployeeCategory;
+
+//enum EmployeeCategory {
+//    FULL_TIME,
+//    PART_TIME,
+//    INTERN
+//}
 
 public class Employee {
     private String name;
-    private int empId;
-    private int age;
+    private int id;
+    private EmployeeCategory category;
 
     public Employee() {
     }
 
-    public Employee(String name, int empId, int age) {
+    public Employee(String name, int id, EmployeeCategory category) {
         this.name = name;
-        this.empId = empId;
-        this.age = age;
+        this.id = id;
+        this.category = category;
     }
 
-    public String getName() {
-        return name;
+    public Employee(String name, int id) {
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getEmpId() {
-        return empId;
-    }
-
-    public void setEmpId(int empId) {
-        this.empId = empId;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-
-    @Override
     public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", empId=" + empId +
-                ", age=" + age +
-                '}';
+        return "\nEmployee_id: " + id + "\nEmp_Name: " + name + "\nEmp_Category: " + category+".";
     }
 }
+
+
+
+
