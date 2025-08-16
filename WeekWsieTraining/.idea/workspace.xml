@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="except day 5&#10;assignements done">
+    <list default="true" id="f2beca4a-41ed-4989-95c4-a4c63fd52632" name="Changes" comment="Week 1 --- Completed (Daywise + Weekly Task)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Abstraction.executor": "Run",
-    "Application.MemoryManagement$BookReader.executor": "Run",
-    "Application.NetworkDemo.executor": "Run",
-    "Application.WeekTask.executor": "Run",
-    "Application.newC.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "week1",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Salesforce Training/SalesforceTraining 2025/WeekWsieTraining",
-    "onboarding.tips.debug.path": "D:/Salesforce Training/SalesforceTraining 2025/Week 1/Day2Task/WeekWsieTraining/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Abstraction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemoryManagement$BookReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeekTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.newC.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;week1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Salesforce Training/SalesforceTraining 2025/WeekWsieTraining&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Salesforce Training/SalesforceTraining 2025/Week 1/Day2Task/WeekWsieTraining/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Salesforce Training\SalesforceTraining 2025\Week 1\Day2Task\WeekWsieTraining\src\Week_1_Task\model" />
@@ -107,11 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1755173742037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Week 1 --- Completed (Daywise + Weekly Task)">
+      <option name="closed" value="true" />
+      <created>1755187979684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755187979684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="except day 5&#10;assignements done" />
-    <option name="LAST_COMMIT_MESSAGE" value="except day 5&#10;assignements done" />
+    <MESSAGE value="Week 1 --- Completed (Daywise + Weekly Task)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 1 --- Completed (Daywise + Weekly Task)" />
   </component>
 </project>
