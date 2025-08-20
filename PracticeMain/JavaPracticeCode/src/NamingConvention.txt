@@ -1,0 +1,14 @@
+-------- Java Developer - Naming Convention for Better Good Looking and Easy understable Program --------
+
+// camel casing
+
+- class and interface - Calc, Runnable //start with Capital Letter
+- variable and method - marks, show() // start with small letter
+- constants - PI,BRAND // All capital Letters
+
+
+// combination of 2 or more words -- CamelCasing
+showMyMarks(),getAge(),setName()
+
+//snake case -- good for python (bad for java)
+show_my_marks(),get_age(),set_age()
