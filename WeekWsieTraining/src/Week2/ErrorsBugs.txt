@@ -1,4 +1,6 @@
 ----------Exceptions---------
+Exception: An exception is an error event that can happen during the execution of a program and disrupts its normal flow.
+
 Errors
 -------
 1.Compile Time Error -- during compile Time error shows in Terminal (Syntactical Errors)
@@ -10,7 +12,7 @@ Errors
               |
             Throwable
       |                 |
-    Error            Exception
+    Error            Exception (checked, unchecked)
 |ThreadDeath,IOError      | (RunTime Excep - arthm,arryBound,nullpointer etc.) -> unchecked excp
                             (SQL Excep,IO Excep) -> checked excp
 
@@ -24,3 +26,7 @@ finally -- runs always(even though exception occurs or not) also use to close fi
 try-with-resource -- shorten the try-finally it will close files or connc automatically. no need of finally to close files
 
 customException -- we can create our own Exception methods
+
+Exceptions Thrown by
+-JVM
+    NullPointerException,StackOverflowError, ArithmeticException, OutOfMemoryError, InterruptedException,InterruptedException,ExceptionInInitializerError, NoClassDefFoundError,IllegalMonitorStateException,AbstractMethodError
