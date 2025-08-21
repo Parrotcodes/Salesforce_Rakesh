@@ -1,5 +1,3 @@
-package Week2.Day4.Assignment;
-
 
 //Custom Exception sometimes are very useful to Handle small small errors to identify easily and Handle easily
 //when we deploy our application when an error which is not meaningful or not understable to user during RunTimeErrors.
@@ -13,7 +11,7 @@ class AgeValidateException extends Exception{
     }
 }
 
-public class CustomException {
+public class customcs {
     public static void isAgeValidate(int age) throws AgeValidateException{
         if(age <18){
             throw new AgeValidateException("Age "+age+ " are not allowed to singup!");

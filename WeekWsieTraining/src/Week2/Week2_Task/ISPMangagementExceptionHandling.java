@@ -1,4 +1,4 @@
-package Week2.Task;
+package Week2.Week2_Task;
 
 //1.First we need to check the RunTime error and Compile Time Errors
 //2.Try to Handle those Errors using Exception Handling concept
