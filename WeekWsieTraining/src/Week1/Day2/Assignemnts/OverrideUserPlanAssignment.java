@@ -17,6 +17,7 @@ class PrimeUsers extends UserPlan{
 public class OverrideUserPlanAssignment {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter user type : (prime/normal) ");
         String userType = sc.nextLine().toLowerCase();
 
         UserPlan plan;

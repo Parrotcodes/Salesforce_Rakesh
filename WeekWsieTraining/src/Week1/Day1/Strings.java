@@ -54,7 +54,19 @@ public class Strings {
         System.out.println("Substring: "+ sentence.substring(8,sentence.length()));
 
 
-        // Strings are immutable
+        // Strings are immutable -- can not be change
+
+        String s1 = "Hello";
+        String s2 = s1;
+
+        System.out.println("Before: s1 = " + s1 + ", s2 = " + s2);
+
+        s1 = s1.concat(" World");
+
+        System.out.println("After: s1 = " + s1 + ", s2 = " + s2);
+
+
+
 
     }
 }

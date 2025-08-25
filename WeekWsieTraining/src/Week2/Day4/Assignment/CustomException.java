@@ -22,7 +22,7 @@ public class CustomException {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         System.out.println("Enter your age Check age_validity to Signup: ");
         Scanner sc = new Scanner(System.in);
 

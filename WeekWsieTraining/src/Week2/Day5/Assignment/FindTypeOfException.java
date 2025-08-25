@@ -3,8 +3,8 @@ package Week2.Day5.Assignment;
 import java.util.regex.Pattern;
 
 //PatternSyntaxException
-//First new MyClass() call → ExceptionInInitializerError caused by PatternSyntaxException.
-//Second new MyClass() call → NoClassDefFoundError.
+//First new MyClass() call -> ExceptionInInitializerError caused by PatternSyntaxException.
+//Second new MyClass() call -> NoClassDefFoundError.
 // the class failed initialization earlier. Once it fails, it won’t attempt re-initialization again.
 //   JVM marks it as unusable. So,Java Throws: NoClassDefFoundError
 

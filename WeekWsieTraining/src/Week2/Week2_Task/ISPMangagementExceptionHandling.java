@@ -60,13 +60,14 @@ class ProvideISPService{
     }
 }
 
+//mutiple try-catch blocks Handling each block risky code
 public class ISPMangagementExceptionHandling {
     public static void main(String[] args) {
 
 //        InterNet Service Provider (ISP) Management
     ProvideISPService service = new ProvideISPService();
 
-        // CASE 1: Genuine Customer
+        // Case 1: Genuine Customer
         try {
             System.out.println("--------- Genuine customer ---------");
             service.startService("Rakesh", true, 50, 100);
@@ -74,7 +75,7 @@ public class ISPMangagementExceptionHandling {
             System.out.println("Handled Exception: " + e.getMessage());
         }
 
-        // CASE 2: Invalid Customer Name
+        // Case 2: Invalid Customer Name
         try {
             System.out.println("--------- Invalid Name ---------");
             service.startService("", true, 60, 100);
@@ -82,7 +83,7 @@ public class ISPMangagementExceptionHandling {
             System.out.println("Handled Exception: " + e.getMessage());
         }
 
-        // CASE 3: Payment Failed
+        // Case 3: Payment Failed
         try {
             System.out.println("--------- Payment Status ---------");
             service.startService("Rakhy", false, 20, 100);
@@ -90,7 +91,7 @@ public class ISPMangagementExceptionHandling {
             System.out.println("Handled Exception: " + e.getMessage());
         }
 
-        // CASE 4: Limit Exceeded
+        // Case 4: Limit Exceeded
         try {
             System.out.println("--------- Limit Exceeded ---------");
             service.startService("Harry", true, 130, 100);

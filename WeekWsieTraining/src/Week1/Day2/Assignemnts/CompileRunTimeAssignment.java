@@ -27,9 +27,11 @@ class Circle extends Shape{
 public class CompileRunTimeAssignment {
     public static void main(String[] args) {
         Shape s1 = new Shape();
+        //compile time - overloading
         s1.area(3);;
         s1.area(4,5);
 
+        // runtime - overriding
         Circle c = new Circle();
         c.draw();
     }

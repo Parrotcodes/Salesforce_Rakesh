@@ -36,14 +36,13 @@ public class Assignemnts {
         for (int num : rev) {
             System.out.print(num+" ");
         }
-    in.close();
-
     }
+
     // Assignment Q2
     public static void DiscountType(){
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter your subscription type:(premium/normal)");
+        System.out.println("\n\nEnter your subscription type:(premium/normal)");
         String type = in.nextLine().trim().toLowerCase();
 
         System.out.println("Enter the Original Price:");
@@ -107,6 +106,7 @@ public class Assignemnts {
         // Strings are immutable in Java
             // Once you create a String, it cannot be changed.
             // If you store a password in a String, it stays in the Java String pool or heap memory until garbage collection happens — and you can’t erase it manually.
-            // This means the password might present in memory for an unknown amount of time, vulnerable to memory leakage tools.
+            // This means the password might present in memory for an unknown amount of time, possible vulnerable to memory leakage tools.
+            // char is preferred - It does not stay in memory longer than necessary. It reduces the risk of password leakage through memory dumps.
     }
 }

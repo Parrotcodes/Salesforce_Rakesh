@@ -17,7 +17,7 @@ Errors
                             (SQL Excep,IO Excep) -> checked excp
 
 keywords:
-try -- checks logic
+try -- checks logic risky code
 catch -- catch/handles the exceptions
 throw -- used to throw an exception manually. (Eg: if database connection fails it will throw server error or handle by connecting to new connection)
 throws -- declare exceptions a method can throw

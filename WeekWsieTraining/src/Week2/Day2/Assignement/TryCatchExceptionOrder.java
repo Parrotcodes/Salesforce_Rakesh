@@ -2,6 +2,7 @@ package Week2.Day2.Assignement;
 
 //How should the Exception catch blocks be ordered ?
 //The order of Exception catch blocks are first subclass of Exception then the superException class -- this will work perfectly
+//Always catch subclasses first, then superclasses (Exception) -- we can see Exception Hierarchy concept
 
 //program on try-catch, order of catch and finally block -- working
 public class TryCatchExceptionOrder {

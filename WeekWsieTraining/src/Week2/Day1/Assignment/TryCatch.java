@@ -16,14 +16,14 @@ public class TryCatch {
             System.out.println("Caught NullPointerException");
         }
         catch (Exception e) { // general exception
-            System.out.println("Caught generic Exception");
+            System.out.println("Caught general Exception");
         }
 
 // Solution:
 //Always catch subclasses first, then superclasses (Exception) -- we can see Exception Hierarchy concept
         //if we use Exception above the NullPointer Exception it will not check the NullPointerException
         // by default all Exceptions are handled by Exception.
-        // so, the can not handle the NullPointerException in such cases
+        // so, they can not handle the NullPointerException in such cases
 
         // To make sure this check the NullPointerException, keep Exception handle always as last exception only.
         // if the above Catch exceptions are not handled by the above catches then the final catch(Exception e) will take care.
