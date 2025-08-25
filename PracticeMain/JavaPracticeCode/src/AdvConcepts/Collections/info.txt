@@ -1,0 +1,7 @@
+Collection API -- Concept
+Collection -- Interface
+Collections -- Classes
+
+
+meaning:
+Collection : collection of items, elements (group of elements like Arrays) not single value storage like int

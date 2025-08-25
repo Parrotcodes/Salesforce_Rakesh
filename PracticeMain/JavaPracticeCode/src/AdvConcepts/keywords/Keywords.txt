@@ -1,0 +1,69 @@
+--------------Useful keywords----------
+
+1.for-each (enhanced for loop)
+
+2.switch (new version) -- expression,return,yield,break
+
+3.Array - Array Object (Array stores obj reference like a elements in array)
+    - 1D,2D,3D, MultiDimensional, JaggedArray
+
+4.break,continue
+
+5.String - String,StringBuffer,StringBuilder
+
+6.static -- static var,static method,static block
+
+7.Class.forName -- to load class "we need Class Class to Load the Class"
+                    (require to load class with creating any object !important)
+
+8. 'this' keyword -- 'this' belongs to the particular method to assign instance var with local parameter variable.
+
+9.Encapsulation -- this
+
+10.Inheritance -- extends (IS-A Relationship)  Eg: AdvCal is a Cal
+    Types:
+        a.Single Level Inheritance
+        b.Multi level Inheritance
+        c.Hybrid Inheritance
+        d.Multiple Inheritance (not runs in Java) !removed-- bcz of ambiguity problem
+
+11. this() -- this will execute constructor of the same class
+    super() -- for every constructor will have super() by default (hidden)
+    //class Parent extends Object --> Every Class in Java extends an Object by default
+
+12.package -- folders inside folders (Folder Structure)
+                MainFolder/SubFolder/NewSubSubFolder
+                Project/src
+                Project/src/utils
+                Project/src/db
+                Project/src/components/*
+
+13.import -- we can import packages into another classes
+        we can create an our own package and we can give access to public similar to (npm packages)
+
+14.Access Modifier
+        a.Private -- can be used in the same class (even though same package other classes can not access)
+        b.Public -- we can access classes info inside or outside the package also (access from anywhere from the project), but in same package can work
+        c.Protected -- protected(same package + subclass) ---- same class, same package subclass, same package non-subclass, diff package subclass
+                  Note(protected): -> outside package, but it should be subclassed (which extends the outside parent class)
+        d.default -- by default (it is private protected) -- It can be accessed in the same package.
+
+15.final -- can be used with (variable, method, class)
+
+16.Abstract --    for future reference // new feature declared but not implemented
+                -- abstract method can be implemented inside the abstract class only
+                -- methods must be implemented in the inherited class of Parent abstract class (!required), otherwise that class also become abstract class
+                -- we can't create object of abstract Class but we can create a reference of obj class (using child class)
+                -- abstract can have both abstract+normal methods (multiple can create)
+
+17.interface -- when we need only abstract methods in abstract class
+                -- alternative to create abstract classes methods --> interface (by default public + abstract)
+                -- Interface is not a class (diff -> abstract is class but interface is not class)
+                -- we can also declare variables inside interface but by default ('final' (CONSTANT) + 'static')
+           Goal -- interface just shows the design (path-> where+how to go)
+                   and by using 'implements' keyword we can use to implement methods of interface.
+           Note: we need to declare interface variable values inside interface only and which are constant always. and also we can implements multiple interfaces for once class (inheritance concept)
+
+18. enum --
+
+19.try,catch,throw,throws
