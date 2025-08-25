@@ -4,12 +4,12 @@ import BankingSystem.CustomExceptions.BankCustomExceptions;
 
 
 public class SavingAccount extends BankAccount {
-    private String accountNumber;
+    private int accountNumber;
     private String holderName;
     protected int balance;
     private final int Min_balance = 1000;
 
-    public SavingAccount(String accNo, String name, int balance) {
+    public SavingAccount(int accNo, String name, int balance) {
         super(accNo, name, balance);
     }
 

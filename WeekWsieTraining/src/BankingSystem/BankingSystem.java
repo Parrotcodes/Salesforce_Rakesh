@@ -6,6 +6,7 @@ import BankingSystem.accounts.CurrentAccount;
 import BankingSystem.accounts.SavingAccount;
 import BankingSystem.CustomExceptions.*;
 
+import java.util.Random;
 import java.util.Scanner;
 
 //Steps:
@@ -91,8 +92,9 @@ public class BankingSystem {
         System.out.print("Enter Account Holder Name: ");
         String name = input.nextLine();
 
-        System.out.print("Enter Account Number: ");
-        String accNo = input.nextLine();
+//        System.out.print("Enter Account Number: ");
+        Random rand = new Random();
+        int accNo = 100000 + rand.nextInt(999999);
 
         System.out.print("Enter Initial Balance: ");
         int balance;
