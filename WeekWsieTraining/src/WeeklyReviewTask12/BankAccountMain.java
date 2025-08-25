@@ -7,7 +7,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class BankAccount {
+public class BankAccountMain {
     public static void main(String[] args){
         System.out.println("************ BANKING SYSTEM ***************");
 
