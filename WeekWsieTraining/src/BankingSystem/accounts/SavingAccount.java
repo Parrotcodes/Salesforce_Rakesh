@@ -10,7 +10,9 @@ public class SavingAccount extends BankAccount {
     private final int Min_balance = 1000;
 
     public SavingAccount(int accNo, String name, int balance) {
-        super(accNo, name, balance);
+        this.accountNumber = accNo;
+        this.holderName = name;
+        this.balance = balance;
     }
 
     public void withdraw(int amount) throws BankCustomExceptions {

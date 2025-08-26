@@ -17,6 +17,7 @@ public abstract class BankAccount {
     protected BankAccount() {
     }
 
+//    this is abstract method every child of this class should, must implement their own rule for withdrawal (polymorphism)
     public abstract void withdraw(int amount) throws Exception;
 
     public void deposit(int amount) {
