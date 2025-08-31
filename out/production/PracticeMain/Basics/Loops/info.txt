@@ -1,8 +1,0 @@
--------- Basics.Loops in Java --------
-
-repeat the stmt for 4 times
---> loop - while,do-while,for
-
-for -- 100 times or condition or limits range values
-while -- files reading, infinite no limit range, unknown times
-do-while -- run once and then check the condition

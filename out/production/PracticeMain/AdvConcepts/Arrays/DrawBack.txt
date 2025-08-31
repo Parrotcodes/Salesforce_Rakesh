@@ -1,9 +1,0 @@
----------Darwbacks of Arrays----------------
-
-1.Size is fixed (Continguous memory)
-2.Searching,Inserting --- Traverse all elements (Times takes a lot)
-3.Array stores only same type of DataType values (int)
-
-// solution
-
-Collection --> Dynamic (resolve drawback of Arrays)
