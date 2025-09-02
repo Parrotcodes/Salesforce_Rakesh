@@ -1,0 +1,15 @@
+//Methods
+    fail()
+    assertEquals()
+    assertArrayEquals()
+    assertThrows()
+    assertTimeout()
+
+// annotations
+    @Test -- for each unit we have to mention
+    @BeforeEach
+    @AfterEach
+    @BeforeAll
+    @AfterAll
+
+Working and flow lifecycle of annotations Refer Document: org.example.notes
