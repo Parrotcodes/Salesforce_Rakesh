@@ -58,33 +58,33 @@ public class ISPPlans implements Comparable<ISPPlans>{
 }
 
 //speed
-class SpeedComparator implements Comparator<ISPPlans>{
-    @Override
-    public int compare(ISPPlans speed1, ISPPlans speed2) {
-        return Integer.compare(speed1.getSpeed(),speed2.getSpeed()); //integer class by default implents comaprable
-    }
-}
+//class SpeedComparator implements Comparator<ISPPlans>{
+//    @Override
+//    public int compare(ISPPlans speed1, ISPPlans speed2) {
+//        return Integer.compare(speed1.getSpeed(),speed2.getSpeed()); //integer class by default implents comaprable
+//    }
+//}
 
 //validity
-class ValidityComparator implements Comparator<ISPPlans>{
-    @Override
-    public int compare(ISPPlans date1, ISPPlans date2) {
-        return Integer.compare(date1.getValidity(),date2.getValidity());
-    }
-}
+//class ValidityComparator implements Comparator<ISPPlans>{
+//    @Override
+//    public int compare(ISPPlans date1, ISPPlans date2) {
+//        return Integer.compare(date1.getValidity(),date2.getValidity());
+//    }
+//}
 
 //Type
-class Typecomparator implements Comparator<ISPPlans>{
-    @Override
-    public int compare(ISPPlans type1, ISPPlans type2) {
-        return type1.getType().compareTo(type2.getType());
-    }
-}
+//class Typecomparator implements Comparator<ISPPlans>{
+//    @Override
+//    public int compare(ISPPlans type1, ISPPlans type2) {
+//        return type1.getType().compareTo(type2.getType());
+//    }
+//}
 
 //plan name
-class PlanNameComparator implements Comparator<ISPPlans>{
-    @Override
-    public int compare(ISPPlans name1, ISPPlans name2) {
-        return name1.getName().compareTo(name2.getName());
-    }
-}
+//class PlanNameComparator implements Comparator<ISPPlans>{
+//    @Override
+//    public int compare(ISPPlans name1, ISPPlans name2) {
+//        return name1.getName().compareTo(name2.getName());
+//    }
+//}
