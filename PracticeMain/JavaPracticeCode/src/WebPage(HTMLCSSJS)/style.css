@@ -1,0 +1,55 @@
+/* External CSS */
+body {
+  background-color: grey;
+}
+
+/* Counter */
+.CounterContainer{
+  text-align: center;
+  background-color: skyblue;
+  width: 40%;
+  padding: 20px;
+}
+
+#counterLable{
+  font-size: 52px;
+}
+
+#decrease,#increase,#reset{
+  background-color: rgb(135, 158, 235);
+  border: 1px solid blue;
+  padding: 10px 20px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rebeccapurple;
+}
+
+
+/* Dice roll */
+#dicecontainer{
+  text-align: center;
+  background-color: yellow;
+  width: 120px;
+  height: 50px;
+  padding: 40px;
+}
+
+#dicenum{
+  font-size: 32px;
+}
+
+#rollbtn{
+  background-color: red;
+  color: wheat;
+  padding: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+
+#checkinfo{
+  font-size: 18px;
+  color: black;
+}
