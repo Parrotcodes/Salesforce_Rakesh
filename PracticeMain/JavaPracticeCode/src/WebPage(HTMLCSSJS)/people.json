@@ -1,0 +1,44 @@
+[
+        {
+        "name":"P1 Rakesh",
+        "age":22,
+        "isStudent":false,
+        "hobbies":["plalying chess","watching movies","reading news"],
+        "address":{
+            "street":"1001,new street",
+            "vil":"Madiwala",
+            "mand":"central silk board",
+            "dis":"CSR Layout,Banglore",
+            "state":"karnataka",
+            "pincode":500068
+        }
+    },
+    {
+        "name":"P2 Rakesh",
+        "age":22,
+        "isStudent":false,
+        "hobbies":["plalying chess","watching movies","reading news"],
+        "address":{
+            "street":"1001,new street",
+            "vil":"Madiwala",
+            "mand":"central silk board",
+            "dis":"CSR Layout,Banglore",
+            "state":"karnataka",
+            "pincode":500068
+        }
+    },
+    {
+        "name":"P3 Rakesh",
+        "age":22,
+        "isStudent":false,
+        "hobbies":["plalying chess","watching movies","reading news"],
+        "address":{
+            "street":"1001,new street",
+            "vil":"Madiwala",
+            "mand":"central silk board",
+            "dis":"CSR Layout,Banglore",
+            "state":"karnataka",
+            "pincode":500068
+        }
+    }
+]
