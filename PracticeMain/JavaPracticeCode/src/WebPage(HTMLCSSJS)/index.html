@@ -14,7 +14,7 @@
   </style>
   <body>
     <!-- Inline CSS #thisIsAComment -->
-    <div style="text-align: center">
+    <div id="welcome-msg">
       <h1>Welcome to salesforce tutorial - 2025 Batch</h1>
     </div>
     <p>
@@ -65,6 +65,65 @@
 
     <!-- Callback -->
     <h1 id="myCallback"></h1>
+
+    <!-- OOPS -->
+    <!-- Object -->
+    <div id="object"></div>
+
+    <!-- Class -->
+    <div id="class"></div>
+
+    <!-- Timer btns -->
+    <button onclick="startTimer()">Start Timer</button>
+    <button onclick="clearTimer()">Clear Timer</button>
+
+    <!-- Compund Intrest Calculator -->
+    <div class="compudCalculator">
+      <h1>Compound Intrest Calculator</h1>
+      <form>
+        <label for="pamount">Principal Amount</label>
+        <input type="number" name="pamount" id="pamount" />
+
+        <label for="irate">Intrest Rate</label>
+        <input type="number" name="irate" id="irate" />
+
+        <label for="years">years</label>
+        <input type="number" name="years" id="years" />
+        <br />
+        <button type="button" onclick="CompundCalculate()">Submit</button>
+
+        <p>Total: <span id="total-amount">$00.0</span></p>
+      </form>
+    </div>
+
+    <!-- Syncronous asyncornous -->
+
+    <!-- CALCULATOR -->
+    <div id="body">
+      <div id="calculator">
+        <h3>Calculator</h3>
+        <input id="display" readonly />
+        <div id="keys">
+          <button onclick="appendToDisplay('+')" id="operator-btn">+</button>
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button onclick="appendToDisplay('-')" id="operator-btn">-</button>
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button onclick="appendToDisplay('*')" id="operator-btn">*</button>
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button onclick="appendToDisplay('/')" id="operator-btn">/</button>
+          <button onclick="appendToDisplay('0')">0</button>
+          <button onclick="appendToDisplay('.')">.</button>
+          <button onclick="MathCalculate()">=</button>
+          <button onclick="clearDisplay()" id="operator-btn">C</button>
+        </div>
+      </div>
+    </div>
     <!-- JS starts here -->
     <script src="index.js"></script>
   </body>

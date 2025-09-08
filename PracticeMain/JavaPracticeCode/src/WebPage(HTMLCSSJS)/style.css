@@ -53,3 +53,123 @@ button:hover{
   font-size: 18px;
   color: black;
 }
+
+/* compudCalculator */
+
+.compudCalculator{
+  background-color: aliceblue;
+  width: 60%;
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(107, 106, 106);
+}
+
+.compudCalculator h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.compudCalculator label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.compudCalculator input{
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid rgb(154, 197, 231);
+  width: 40%;
+}
+
+.compudCalculator button{
+  align-items: center;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.compudCalculator p{
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+/* Math Calculator */
+#body{
+    margin: 0;
+    display: block;
+}
+
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+#calculator h3{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#display{
+    width: 100%;
+    padding: 10px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+#calculator #keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#calculator button{
+    width:70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculator button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+#calculator button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+#calculator #operator-btn{
+  background-color: rgba(209, 98, 46, 0.6);
+}
+
+#calculator #operator-btn:hover{
+  background-color: rgba(238, 116, 45, 0.7);
+}
+
+#calculator #operator-btn:active{
+  background-color: rgba(238, 116, 45, 0.8);
+}
