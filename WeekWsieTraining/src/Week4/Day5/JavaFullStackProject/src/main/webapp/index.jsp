@@ -10,6 +10,8 @@
 </head>
 <body>
 <%
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+
 	boolean isLogin;
 	if(session.getAttribute("username")==null){
 		response.sendRedirect("login.jsp");

@@ -10,7 +10,7 @@
 <body>
 <div class="login-container">
     <h2>Login</h2>
-    <form action="login" method="get">
+    <form action="login" method="post">
       <label for="uname">Enter Username:</label>
       <input type="text" id="uname" name="uname" required>
 
