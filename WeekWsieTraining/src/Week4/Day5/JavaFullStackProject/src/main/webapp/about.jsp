@@ -57,7 +57,7 @@
   <div class="about-container">
     <h2>About Us</h2>
     <p>Welcome to MyBlog, a place where we share insights, stories, and ideas. Our mission is to build a community of learners and creators who are passionate about technology, creativity, and knowledge.</p>
-
+	<p style="text-align:center;font-weight:bold;"><mark>This is the Default page. About & Contact are visible to all. Tutorial & Blog Posts is only for logged-in users.</mark></p>
     <h2>Meet Our Team</h2>
     <div class="team">
       <div class="member">

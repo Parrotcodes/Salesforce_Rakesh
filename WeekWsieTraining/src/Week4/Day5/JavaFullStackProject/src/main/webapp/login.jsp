@@ -11,16 +11,16 @@
 <div class="login-container">
     <h2>Login</h2>
     <form action="login" method="post">
-      <label for="uname">Enter Username:</label>
-      <input type="text" id="uname" name="uname" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
 
-      <label for="pwd">Enter Password:</label>
+      <label for="pwd">Password:</label>
       <input type="password" id="pwd" name="pwd" required>
 
       <input type="submit" value="Login">
     </form>
     <br/>
-     <a href="#">Register</a>
+     <a href="register.jsp">Register</a>
   </div>
 
 </body>

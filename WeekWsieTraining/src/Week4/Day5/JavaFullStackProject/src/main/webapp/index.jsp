@@ -9,15 +9,6 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<%
-	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-
-	boolean isLogin;
-	if(session.getAttribute("username")==null){
-		response.sendRedirect("login.jsp");
-		isLogin = false;
-		}
-%>
 
 	<!-- Navbar -->
   <header>
@@ -25,21 +16,23 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="videos.jsp" target="_blank">videos</a></li>
         <li><a href="about.jsp">About</a></li>
         <li><a href="contact.jsp">Contact</a></li>
+        
         <%
-        isLogin = true;
-        if(isLogin){ %>
-        	<form action="logout">
-    		<input type="submit" value="Logout"/>
-    	</form>
-    	
-      <%  }else{ %>
-        <form action="register">
-    		<input type="submit" value="Register"/>
-    	</form>
-        <%} %>
+		response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+	if(session.getAttribute("email")==null){
+		response.sendRedirect("login.jsp");
+		}
+%>
+        
+        <% if (session.getAttribute("email") != null) { %>
+        <li><a href="videos.jsp" target="_blank">Tutorials</a></li>
+        <li><a href="logout">Logout</a></li>
+      <% } else { %>
+        <li><a href="login.jsp">Login</a></li>
+        <li><a href="register.jsp">Register</a></li>
+      <% } %>
       </ul>
     </nav>
   </header>
