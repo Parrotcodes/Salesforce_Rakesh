@@ -5,9 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
-    <button id="button">get data</button>
+  <style>
+    #info{
+      display: flex;
+      border: 2px solid green;  
+      padding:5px;
+      margin-bottom:10px;
+      width: 350px;
+    }
 
-    <script src="ajax.js"></script>
+    #info ul li{
+      list-style: none;
+    }
+  </style>
+  <body>
+  <!-- Xampp server need to run  -->
+    <h1 style="text-align: center;background-color:skyblue;">------------- Ajax Crash Course ------------</h1>
+    <!-- ajax.js -->
+    <button id="button">get data</button>
+    <div id="dummydata"></div>
+    <br/>
+    <!-- ajax2.js -->
+     <br/>
+
+    <button id="user">getUser</button><br><br>
+    <div id="data"></div>
+    <br/><br/>
+
+    <button id="users">getUsers</button><br><br>
+    <div id="datas"></div>
+    <br/><br/>
+
+    <button id="process">Loadingg</button>
+    <div id="processInfo"></div>
+
+    <button id="gitusers">GitHub Users</button><br><br>
+    <div id="gitinfo"></div>
+
+
+<br/><br/>
+    <!-- <script src="ajax.js"></script> -->
+    <script src="ajax2.js"></script>
   </body>
 </html>
