@@ -1,7 +1,7 @@
 # Java Daily Practice 📅
 
 **Overview:**
-A clean, concise log of daily Java exercises and company assignments from Moodle.
+A clean, concise log of daily Exercises and company assignments from Moodle.
 
 ## Weekly Breakdown
 
@@ -9,11 +9,11 @@ A clean, concise log of daily Java exercises and company assignments from Moodle
 |------|-----------------------------|--------------|
 | 1    | Java Basics                 | ✅ Completed |
 | 2    | Object-Oriented Programming | ✅ Completed |
-| 3    | Advanced Concepts           | 🔄 In Progress |
-| 4    | DBMS                        | 📋 Planned   |
-| 5    | JDBC, Junit, Servlet        | 📋 Planned   |
-| 6    | HTML,Css and JS             | 📋 Planned   |
-| 7    | Salesforce                  | 📋 Planned   |
+| 3    | Advanced Concepts           | ✅ Completed |
+| 4    | DBMS                        | ✅ Completed |
+| 5    | JDBC, Junit, Servlet        | ✅ Completed |
+| 6    | HTML,Css and JS             | ✅ Completed |
+| 7    | Salesforce                  | 🔄 In Progress |
 | 8    | Apex                        | 📋 Planned   |
 | 9    | Lightning Web Components    | 📋 Planned   |
 | 10   | Final Assignment            | 📋 Planned   |
@@ -30,14 +30,22 @@ cd Salesforce_Rakesh
 
 Run any day’s assignment:
 ```bash
-java -cp src Week%_
+java -cp src WeekWiseTraining%_
 ```
 
+## Switch Branch:
+### Topics : Junit | JDBC | JSP | JSTL | Servlet | MySQL
+
+### Project: Dynamic Login Tutotrial WebSite
+```bash
+git checkout week4_junt
+cd PracticeMain
+```
 ## Tech Stack
-Java 17 | JDBC | JUnit | Front-End | Servlet | Salesforce Development | Apex | Lightning Web Components
+Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
 ## Progress
-- **Days Completed:** 09 / 65
-- **Assignments Submitted:** 2 / 13
+- **Days Completed:** 20 / 65
+- **Assignments Submitted:** 4 / 13
 
 **Happy Coding!**
