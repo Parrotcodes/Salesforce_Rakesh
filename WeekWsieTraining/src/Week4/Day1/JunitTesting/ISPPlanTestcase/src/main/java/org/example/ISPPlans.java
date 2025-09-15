@@ -1,12 +1,11 @@
-package Week3.FinalTask;
+package org.example;
 
-public class ISPPlans implements Comparable<ISPPlans>{
-    //name,price,type,speed, validity
-    private String  name;
+public class ISPPlans implements Comparable<ISPPlans> {
+    private String name;
     private double price;
     private String type;
     private int speed;
-    private  int validity;
+    private int validity;
 
     public ISPPlans(String name, double price, String type, int speed, int validity) {
         this.name = name;
@@ -16,27 +15,11 @@ public class ISPPlans implements Comparable<ISPPlans>{
         this.validity = validity;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public int getValidity() {
-        return validity;
-    }
-
+    public String getName() { return name; }
+    public double getPrice() { return price; }
+    public String getType() { return type; }
+    public int getSpeed() { return speed; }
+    public int getValidity() { return validity; }
 
     @Override
     public String toString() {
@@ -50,7 +33,7 @@ public class ISPPlans implements Comparable<ISPPlans>{
     }
 
     @Override
-    public int compareTo(ISPPlans other) { //comparing by class itself
-        return Double.compare(this.price,other.price); //default low -> high sorting
+    public int compareTo(ISPPlans other) {
+        return Double.compare(this.price, other.price);
     }
 }
