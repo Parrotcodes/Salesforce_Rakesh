@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 /**
@@ -43,7 +44,10 @@ public class LoginServlet extends HttpServlet {
 		response.setContentType("application/json");
 		PrintWriter out = response.getWriter();
 		
-		if("admin".equals(username) && "admin".equals(password)) {
+		if("admin@gmail.com".equals(username) && "admin".equals(password)) {
+			 HttpSession session = request.getSession();
+	         session.setAttribute("username", username);
+	         
 			out.print("{\"status\":\"success\",\"message\":\"Login successful\"}");
 			
 		} else {

@@ -25,7 +25,9 @@ public class LoginServlet extends HttpServlet {
             
             response.sendRedirect("index.jsp");
         } else {
-        	
+        	request.setAttribute("errorMessage", "Invalid email or password!");
+        	request.getRequestDispatcher("login.jsp").forward(request, response);
+
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED); //satus code 401
             response.sendRedirect("login.jsp?error=1");
         }

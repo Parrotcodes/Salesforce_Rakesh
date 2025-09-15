@@ -43,12 +43,11 @@
     <nav>
       <ul>
          <li><a href="index.jsp">Home</a></li>
-         <% if (session.getAttribute("email") != null) { %>
+         <% if (session.getAttribute("username") != null) { %>
         <li><a href="videos.jsp" target="_blank">Tutorials</a></li>
         <li><a href="logout">Logout</a></li>
       <% } else { %>
         <li><a href="login.jsp">Login</a></li>
-        <li><a href="register.jsp">Register</a></li>
       <% } %>
         <li><a href="about.jsp">Aboutus</a></li>
         <li><a href="contact.jsp">Contact</a></li>
@@ -86,4 +85,3 @@
   </footer>
 </body>
 </html>
-html>

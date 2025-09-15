@@ -47,12 +47,11 @@
     <nav>
       <ul>
        <li><a href="index.jsp">Home</a></li>
-         <% if (session.getAttribute("email") != null) { %>
+         <% if (session.getAttribute("username") != null) { %>
         <li><a href="videos.jsp" target="_blank">Tutorials</a></li>
         <li><a href="logout">Logout</a></li>
       <% } else { %>
         <li><a href="login.jsp">Login</a></li>
-        <li><a href="register.jsp">Register</a></li>
       <% } %>
         <li><a href="about.jsp">Aboutus</a></li>
         <li><a href="contact.jsp">Contact</a></li>
@@ -63,13 +62,13 @@
   <div class="about-container">
     <h2>About Us</h2>
     <p>Welcome to MyBlog, a place where we share insights, stories, and ideas. Our mission is to build a community of learners and creators who are passionate about technology, creativity, and knowledge.</p>
-	<p style="text-align:center;font-weight:bold;"><mark>This is the Default page. About & Contact are visible to all. Tutorial & Blog Posts is only for logged-in users.</mark></p>
+	<p style="text-align:center;font-weight:bold;"><mark>This is the Default page. About and Contact are visible to all. Tutorial and Blog Posts is only for logged-in users.</mark></p>
     <h2>Meet Our Team</h2>
     <div class="team">
       <div class="member">
         <img src="https://picsum.photos/100" alt="Team">
         <h3>John Doe</h3>
-        <p>Founder & Blogger</p>
+        <p>Founder and Blogger</p>
       </div>
       <div class="member">
         <img src="https://picsum.photos/101" alt="Team">
