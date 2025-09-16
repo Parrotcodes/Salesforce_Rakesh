@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISP Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <img
+        src="https://as2.ftcdn.net/v2/jpg/05/45/71/83/1000_F_545718391_Dg91frbcydrIuHgDyyguMrxdmXERhluc.jpg"
+        alt="ISP Logo"
+        class="logo"
+      />
+      <h2>ISP Registration Form</h2>
+
+      <form id="registrationForm">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <small class="error-msg"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+          <small class="error-msg"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone *</label>
+          <input type="text" id="phone" placeholder="Enter your phone number" />
+          <small class="error-msg"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password *</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small class="error-msg"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="confirm">Confirm Password *</label>
+          <input type="password" id="confirm" placeholder="Re-enter password" />
+          <small class="error-msg"></small>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

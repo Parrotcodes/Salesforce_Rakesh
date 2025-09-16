@@ -1,0 +1,115 @@
+   body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header, footer { background: #222; color: #fff; text-align: center; padding: 1rem; }
+    nav ul { list-style: none; display: flex; justify-content: center; gap: 1rem; padding: 0; }
+    nav a { color: #fff; text-decoration: none; }
+    nav a:hover { color: #ff9800; }
+
+        body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* stack header and login box */
+    }
+    
+    header {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        position: fixed;   /* FIXED NAVBAR */
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #ff9800;
+    }
+
+    .container {
+        background: #fff;
+        padding: 35px 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+        width: 320px;
+        text-align: center;
+        margin-top: 120px; /* push below fixed header */
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .container input[type="email"],
+     .container input[type="text"],
+    .container input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .container input[type="email"]:focus,
+    .container input[type="text"]:focus,
+    .container input[type="password"]:focus {
+        border-color: #74ebd5;
+        box-shadow: 0 0 5px rgba(116, 235, 213, 0.5);
+    }
+
+    .container input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    .container button {
+        background: #74ebd5;
+        border: none;
+        color: #333;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+
+    .container button:hover {
+        background: #57c6c0;
+        color: #fff;
+    }
+
+    #message {
+        margin-top: 15px;
+        font-size: 14px;
+        color: red;
+    }
+    
+    .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 3px;
+  }

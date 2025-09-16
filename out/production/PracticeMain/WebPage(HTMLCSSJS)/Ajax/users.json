@@ -1,0 +1,20 @@
+[
+    {
+    "name":"Rakesh",
+    "age":22,
+    "city":"Banglore",
+    "isEmployee":true
+},
+{
+    "name":"Suresh",
+    "age":12,
+    "city":"Delhi",
+    "isEmployee":true
+},
+{
+    "name":"Harish",
+    "age":22,
+    "city":"Hyderabad",
+    "isEmployee":false
+}
+]

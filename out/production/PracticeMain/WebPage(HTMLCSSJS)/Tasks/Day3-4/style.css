@@ -1,0 +1,92 @@
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url("https://wallpapercave.com/wp/wp3409937.jpg"),no-repeat;
+        background-size: cover;
+      }
+
+      .form-container {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 500px;
+      }
+
+      .logo {
+        display: block;
+        margin: auto;
+        width: 60px;
+        height: 60px;
+        box-shadow: 2px -2px 5px skyblue;
+        border-radius: 50%;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+        text-transform: uppercase;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #c5c5c5;
+        border-radius: 6px;
+        outline: none;
+        box-sizing: border-box;
+      }
+
+      input:focus {
+        border-color: #1e90ff; /* outline: none; -> input css*/
+      }
+
+      .error {
+        border-color: red !important; 
+        background-color: #f1cdcd;
+      }
+
+      .success {
+        border-color: green !important;
+        background-color: #e6ffe6;
+      }
+
+      .error-msg {
+        color: red;
+        font-size: 0.8rem;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+        background: #1e90ff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      button:hover {
+        background: #0056b3;
+      }

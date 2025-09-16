@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Salesforce Trainig</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    /* Internal CSS*/
+    p {
+      color: rgb(255, 255, 255);
+    }
+  </style>
+  <body>
+    <!-- Inline CSS #thisIsAComment -->
+    <div id="welcome-msg">
+      <h1>Welcome to salesforce tutorial - 2025 Batch</h1>
+    </div>
+    <p>
+      loremloremloremloremloremloremloremloremlorem
+      loremloremloremloremloremloremloremloremlorem
+      loremloremloremloremloremloremloremloremlorem
+      loremloremloremloremloremloremloremloremlorem
+    </p>
+
+    <!-- addingContext Using JS -->
+    <div id="mydiv"></div>
+    <h1 id="myH1"></h1>
+    <p id="myP"></p>
+
+    <!-- Excercise 1 -->
+    <p id="myName"></p>
+    <p id="myAge"></p>
+    <p id="isStudent"></p>
+
+    <!-- Input for user -->
+    <h3 id="iname"></h3>
+
+    <label for="myInput">UserName: </label>
+    <input id="myInput" />
+    <button id="mySubmit">Submit</button>
+
+    <!-- Counter Program -->
+    <div class="CounterContainer">
+      <label id="counterLable">0</label>
+      <div id="btncontainer">
+        <button id="decrease">Decrease</button>
+        <button id="reset">Reset</button>
+        <button id="increase">Increase</button>
+      </div>
+    </div>
+
+    <!-- Dice Roll -->
+    <div id="dicecontainer">
+      <label for="dicenum" id="dicenum">0</label>
+      <button id="rollbtn">Roll</button>
+    </div>
+
+    <!-- Nested else-if Task Eligble checking -->
+    <label for="checkAge">Enter Your Age: </label>
+    <input type="text" name="checkAge" id="checkAge" />
+    <button id="checkSubmit">Submit</button>
+    <p id="checkinfo"></p>
+
+    <!-- Callback -->
+    <h1 id="myCallback"></h1>
+
+    <!-- OOPS -->
+    <!-- Object -->
+    <div id="object"></div>
+
+    <!-- Class -->
+    <div id="class"></div>
+
+    <!-- Timer btns -->
+    <button onclick="startTimer()">Start Timer</button>
+    <button onclick="clearTimer()">Clear Timer</button>
+
+    <!-- Compund Intrest Calculator -->
+    <div class="compudCalculator">
+      <h1>Compound Intrest Calculator</h1>
+      <form>
+        <label for="pamount">Principal Amount</label>
+        <input type="number" name="pamount" id="pamount" />
+
+        <label for="irate">Intrest Rate</label>
+        <input type="number" name="irate" id="irate" />
+
+        <label for="years">years</label>
+        <input type="number" name="years" id="years" />
+        <br />
+        <button type="button" onclick="CompundCalculate()">Submit</button>
+
+        <p>Total: <span id="total-amount">$00.0</span></p>
+      </form>
+    </div>
+
+    <!-- Syncronous asyncornous -->
+
+    <!-- CALCULATOR -->
+    <div id="body">
+      <div id="calculator">
+        <h3>Calculator</h3>
+        <input id="display" readonly />
+        <div id="keys">
+          <button onclick="appendToDisplay('+')" id="operator-btn">+</button>
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button onclick="appendToDisplay('-')" id="operator-btn">-</button>
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button onclick="appendToDisplay('*')" id="operator-btn">*</button>
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button onclick="appendToDisplay('/')" id="operator-btn">/</button>
+          <button onclick="appendToDisplay('0')">0</button>
+          <button onclick="appendToDisplay('.')">.</button>
+          <button onclick="MathCalculate()">=</button>
+          <button onclick="clearDisplay()" id="operator-btn">C</button>
+        </div>
+      </div>
+    </div>
+    <!-- JS starts here -->
+    <script src="index.js"></script>
+  </body>
+</html>
