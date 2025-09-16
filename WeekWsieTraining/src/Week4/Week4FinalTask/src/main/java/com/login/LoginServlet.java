@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
 		response.setContentType("application/json");
 		PrintWriter out = response.getWriter();
 		
-		if("admin@gmail.com".equals(username) && "admin".equals(password)) {
+		if("admin@gmail.com".equals(username) && "admin123".equals(password)) {
 			 HttpSession session = request.getSession();
 	         session.setAttribute("username", username);
 	         

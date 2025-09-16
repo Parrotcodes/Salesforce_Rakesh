@@ -25,11 +25,15 @@
     </nav>
 </header>
 
+
 <div class="container">
     <h1>Login</h1>
-    <form onsubmit="onUserSubmit(event)" method="post">
+    <form id="loginForm" onsubmit="onUserSubmit(event)" method="post">
         <input type="email" id="username" name="username" placeholder="Enter Username" required />
+        <div id="usernameError" class="error"></div>
+
         <input type="password" id="password" name="password" placeholder="Enter Password" required />
+        <div id="passwordError" class="error"></div>
 
         <label>
             <input type="checkbox" onclick="showPassword()"> Show Password
