@@ -26,14 +26,14 @@ public class ISPlansSet {
         System.out.println("Customer Budget: "+budget);
 
         if (lower != null) {
-//            System.out.println("Closest lower plan: " + lower.getPlanName() +" -> "+ lower.getPrice()); //using getters
+//            System.out.println("Closest lower plan: " + lower.getPrice()); //using getters
             System.out.println("Closest lower plan: " + lower); //toString()
         } else {
             System.out.println("No lower plan available");
         }
 
         if (higher != null) {
-//            System.out.println("Closest higher plan: " + higher.getPlanName()+" -> " + higher.getPrice()); //using getter
+//            System.out.println("Closest higher plan: " + higher.getPrice()); //using getter
             System.out.println("Closest higher plan: " + higher); //toString()
         } else {
             System.out.println("No higher plan available");

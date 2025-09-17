@@ -56,7 +56,7 @@
         }
 
         if (valid) {
-          window.alert("Registration Successful");
+          alert("Registration Successful ✅");
           form.reset();
           resetStyles();
         }
@@ -79,4 +79,4 @@
         inputs.forEach(function(input){
           input.classList.remove("success", "error");
         });
- }
+      }

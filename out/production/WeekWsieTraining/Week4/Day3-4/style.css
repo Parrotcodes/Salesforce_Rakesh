@@ -57,7 +57,7 @@
       }
 
       input:focus {
-        border-color: #1e90ff;
+        border-color: #1e90ff; /* outline: none; -> input css*/
       }
 
       .error {

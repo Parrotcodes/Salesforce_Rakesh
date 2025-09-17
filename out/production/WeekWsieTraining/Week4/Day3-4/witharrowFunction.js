@@ -44,7 +44,7 @@
 
 
       if ([name, email, phone, password, confirm].every((input) => input.classList.contains("success"))) {
-          window.alert('Registration Successful!');
+          alert(`Registration Successful ✅ Welcome, Mr/Mrs. ${name.value}`);
           form.reset();
           resetStyles();
         }
