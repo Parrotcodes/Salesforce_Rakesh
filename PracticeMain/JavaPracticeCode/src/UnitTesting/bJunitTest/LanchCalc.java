@@ -1,4 +1,4 @@
-package UnitTesting.JunitTest;
+package UnitTesting.bJunitTest;
 
 public class LanchCalc {
     static void main() {

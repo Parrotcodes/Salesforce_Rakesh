@@ -1,4 +1,4 @@
-package UnitTesting.JunitTest;
+package UnitTesting.bJunitTest;
 
 public class Calc {
     public int divide(int i,int j){

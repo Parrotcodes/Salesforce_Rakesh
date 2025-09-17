@@ -83,18 +83,21 @@ public class TestingJDBC {
         // Insert a user to delete
         crud.insert("Delete Me", "delete@example.com", "pass789");
 
-        int id;
-        try (PreparedStatement stmt = conn.prepareStatement("SELECT id FROM users WHERE email = ?")) {
+        int id; String email;
+        try (PreparedStatement stmt = conn.prepareStatement("SELECT id,email FROM users WHERE email = ?")) {
             stmt.setString(1, "delete@example.com");
             ResultSet rs = stmt.executeQuery();
             rs.next();
             id = rs.getInt("id");
+
+            email = rs.getString("email");
+            System.out.println("Email from DB:"+email);
         }
 
-        // Delete the user
+//        // Delete the user
         crud.delete(id);
-
-        // Verify deletion
+//
+//        // Verify deletion
         try (PreparedStatement stmt = conn.prepareStatement("SELECT * FROM users WHERE id = ?")) {
             stmt.setInt(1, id);
             ResultSet rs = stmt.executeQuery();
