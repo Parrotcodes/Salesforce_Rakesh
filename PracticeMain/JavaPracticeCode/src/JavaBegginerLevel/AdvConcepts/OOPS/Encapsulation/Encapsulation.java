@@ -11,7 +11,8 @@ class Human{
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if(age>=18)
+            this.age = age;
     }
 
     public String getName() {

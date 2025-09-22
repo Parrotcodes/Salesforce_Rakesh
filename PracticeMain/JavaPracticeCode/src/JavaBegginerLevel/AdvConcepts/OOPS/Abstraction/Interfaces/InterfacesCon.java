@@ -12,6 +12,13 @@ package JavaBegginerLevel.AdvConcepts.OOPS.Abstraction.Interfaces;
 
 interface Computer{
     void code();
+    default void dummy(){
+        System.out.println("i am dummy from computer"); // to make diamond problem using interface
+    }
+
+    static void NoClassObject(){
+        System.out.println("iam static method from interface"); // to reduce memory storage
+    }
 }
 
 interface AdvComputer{
@@ -20,12 +27,17 @@ interface AdvComputer{
 
 interface SuperComputer extends AdvComputer{
     void HackingOS();
+    default void dummy(){
+        System.out.println("i am dummy from super computer"); // to make diamond problem
+        Computer.NoClassObject(); // accessing static method using interface name
+    }
 }
 
 class Laptop implements Computer{
     public void code(){
         System.out.println("code,compile, run in Laptop");
     }
+
 }
 
 //implements multiple interfaces
@@ -36,6 +48,11 @@ class PC implements Computer,AdvComputer{
 
     public void GamingDev(){
         System.out.println("PC is best to develop Games and Run code faster...");
+    }
+
+    @Override
+    public void dummy() {
+        Computer.super.dummy(); // default diamond problem solution
     }
 }
 

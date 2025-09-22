@@ -9,6 +9,7 @@ public class StringBufferBuilder {
         System.out.println(name.length()); // 6
         System.out.println(name.append(" yadav"));
 
+        System.out.println(name); //modifies original string value
 //        convert stringBuffer to string
         String n = name.toString();
         System.out.println(n);

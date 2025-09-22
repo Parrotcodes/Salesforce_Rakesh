@@ -23,7 +23,7 @@ public class DownCasting {
 //        A obj = new A();
         A obj = (A) new B(); // upcasting B -> A
         obj.show();
-//        obj.show1(); bcz of A reference (not valid)
+//        obj.show1();// bcz of A reference (not valid)
 
         A obj1 = new B();
 
