@@ -1,4 +1,4 @@
-# Java Daily Practice 📅
+# Salesforce Daily Practice 📅
 
 **Overview:**
 A clean, concise log of daily Exercises and company assignments from Moodle.
@@ -34,18 +34,26 @@ java -cp src WeekWiseTraining%_
 ```
 
 ## Switch Branch:
-### Topics : Junit | JDBC | JSP | JSTL | Servlet | MySQL
+### Topics : Junit | JDBC | JSP | JSTL | Servlet | SwingGUI
 
-### Project: Dynamic Login Tutotrial WebSite
+
+### Wekk4 FinalTask
+#### Project: Dynamic Login Tutotrial WebSite
+
+### Branches
 ```bash
-git checkout week4_junt
+git checkout master # main branch
+
+git checkout week4_junt # Junit5 Testing branch
 cd PracticeMain
+
+git checkout javaSwingGUI # Java GUI 
 ```
 ## Tech Stack
 Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
 ## Progress
-- **Days Completed:** 20 / 65
-- **Assignments Submitted:** 4 / 13
+- **Days Completed:** 25 / 65
+- **Assignments Submitted:** 5 / 13
 
 **Happy Coding!**
