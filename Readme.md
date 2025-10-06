@@ -49,6 +49,21 @@ cd PracticeMain
 
 git checkout javaSwingGUI # Java GUI 
 ```
+
+## Register Cases via Live Web
+### SpeedNet ISP Website
+A responsive HTML & CSS website for an Internet Service Provider showcasing plans, registration, and contact forms.  
+Includes customer registration (Web-to-Lead) and support case submission (Web-to-Case) integrated with Salesforce.  
+Built with pure HTML5 and CSS3 for a modern, lightweight design.
+#### Check Web link 👇
+[View Website](https://parrotcodes.github.io/ISPWebAPp/) | [Register New Case Here](https://parrotcodes.github.io/ISPWebAPp/)
+
+```
+# Website Repo 👇
+
+https://github.com/Parrotcodes/ISPWebAPp
+```
+
 ## Tech Stack
 Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
