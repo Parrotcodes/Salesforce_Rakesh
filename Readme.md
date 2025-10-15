@@ -14,7 +14,7 @@ A clean, concise log of daily Exercises and company assignments from Moodle.
 | 5    | JDBC, Junit, Servlet        | ✅ Completed |
 | 6    | HTML,Css and JS             | ✅ Completed |
 | 7    | Salesforce                  | 🔄 In Progress |
-| 8    | Apex                        | 📋 Planned   |
+| 8    | Apex                        | 🔄 In Progress |
 | 9    | Lightning Web Components    | 📋 Planned   |
 | 10   | Final Assignment            | 📋 Planned   |
 
@@ -68,7 +68,7 @@ https://github.com/Parrotcodes/ISPWebAPp
 Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
 ## Progress
-- **Days Completed:** 25 / 65
-- **Assignments Submitted:** 5 / 13
+- **Days Completed:** 40 / 65
+- **Assignments Submitted:** 8 / 13
 
 **Happy Coding!**
