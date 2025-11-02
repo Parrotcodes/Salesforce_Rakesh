@@ -7,7 +7,7 @@ public class myAdvSOQLReturns {
         	// 4.AggregateResult -- return object of aggregate results
         	// 
         	// 
-        	
+        	//changed
         List<AggregateResult> ar = [select COUNT_DISTINCT(amount) total from Opportunity];
         Integer res = (Integer)ar[0].get('expr0'); // this we can use in Apex to use the return value
         System.debug('Distinct Amount Count return value: ' + res);
