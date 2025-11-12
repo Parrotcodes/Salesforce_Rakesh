@@ -1,3 +1,4 @@
+//schedulable 3
 global class asyncMyBatchClass implements Database.Batchable<sObject> {
     
     //get the records
