@@ -64,6 +64,22 @@ Built with pure HTML5 and CSS3 for a modern, lightweight design.
 https://github.com/Parrotcodes/ISPWebAPp
 ```
 
+## Register Cases via Live Web
+### Garage Management System (GMS) – Salesforce Lightning App
+A responsive HTML & CSS website for an Garage Management System(GMS) App showcasing plans, registration, and contact forms.  
+Includes customer registration (Web-to-Lead) and support case submission (Web-to-Case) integrated with Salesforce.  
+Built with pure HTML5 and CSS3 for a modern, lightweight design.
+
+The Garage Management System (GMS) is a full-featured Salesforce Lightning application designed to streamline and automate daily operations in a modern vehicle service garage. The system is built using Salesforce Standard Objects, Custom Objects, Flows, Apex, Automation, and Lightning Web Components (LWC) to provide an end-to-end solution for managing vehicles, services, parts inventory, employees, and customer interactions.
+#### Check Web link 👇
+[View Website](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/) | [Register New Case Here]([https://parrotcodes.github.io/ISPWebAPp/](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/)
+
+```
+# Website Repo 👇
+
+https://github.com/Parrotcodes/GMS-Final-Project-SalesforceApp/
+```
+
 ## Tech Stack
 Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
