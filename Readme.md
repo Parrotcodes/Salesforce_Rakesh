@@ -72,7 +72,7 @@ Built with pure HTML5 and CSS3 for a modern, lightweight design.
 
 The Garage Management System (GMS) is a full-featured Salesforce Lightning application designed to streamline and automate daily operations in a modern vehicle service garage. The system is built using Salesforce Standard Objects, Custom Objects, Flows, Apex, Automation, and Lightning Web Components (LWC) to provide an end-to-end solution for managing vehicles, services, parts inventory, employees, and customer interactions.
 #### Check Web link 👇
-[View Website](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/) | [Register New Case Here]([https://parrotcodes.github.io/ISPWebAPp/](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/)
+[View Website](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/) | [Register New Case Here](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/)
 
 ```
 # Website Repo 👇
