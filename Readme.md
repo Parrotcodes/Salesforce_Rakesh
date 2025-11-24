@@ -5,7 +5,7 @@ A clean, concise log of daily Exercises and company assignments from Moodle.
 
 ## Weekly Breakdown
 
-| S.No | Focus                       | Status       |
+| S.No | Focus     📋 Planned        | Status       |
 |------|-----------------------------|--------------|
 | 1    | Java Basics                 | ✅ Completed |
 | 2    | Object-Oriented Programming | ✅ Completed |
@@ -13,10 +13,10 @@ A clean, concise log of daily Exercises and company assignments from Moodle.
 | 4    | DBMS                        | ✅ Completed |
 | 5    | JDBC, Junit, Servlet        | ✅ Completed |
 | 6    | HTML,Css and JS             | ✅ Completed |
-| 7    | Salesforce                  | 🔄 In Progress |
+| 7    | Salesforce                  | ✅ Completed |
 | 8    | Apex                        | 🔄 In Progress |
-| 9    | Lightning Web Components    | 📋 Planned   |
-| 10   | Final Assignment            | 📋 Planned   |
+| 9    | Lightning Web Components    | 🔄 In Progress |
+| 10   | Final Assignment            | 🔄 In Progress |
 
 
 
@@ -84,7 +84,7 @@ https://github.com/Parrotcodes/GMS-Final-Project-SalesforceApp/
 Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
 ## Progress
-- **Days Completed:** 40 / 65
-- **Assignments Submitted:** 8 / 13
+- **Days Completed:** 55 / 65
+- **Assignments Submitted:** 11 / 13
 
 **Happy Coding!**
