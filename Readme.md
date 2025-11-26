@@ -5,7 +5,7 @@ A clean, concise log of daily Exercises and company assignments from Moodle.
 
 ## Weekly Breakdown
 
-| S.No | Focus                       | Status       |
+| S.No | Focus     📋 Planned        | Status       |
 |------|-----------------------------|--------------|
 | 1    | Java Basics                 | ✅ Completed |
 | 2    | Object-Oriented Programming | ✅ Completed |
@@ -13,10 +13,10 @@ A clean, concise log of daily Exercises and company assignments from Moodle.
 | 4    | DBMS                        | ✅ Completed |
 | 5    | JDBC, Junit, Servlet        | ✅ Completed |
 | 6    | HTML,Css and JS             | ✅ Completed |
-| 7    | Salesforce                  | 🔄 In Progress |
+| 7    | Salesforce                  | ✅ Completed |
 | 8    | Apex                        | 🔄 In Progress |
-| 9    | Lightning Web Components    | 📋 Planned   |
-| 10   | Final Assignment            | 📋 Planned   |
+| 9    | Lightning Web Components    | 🔄 In Progress |
+| 10   | Final Assignment            | 🔄 In Progress |
 
 
 
@@ -64,11 +64,27 @@ Built with pure HTML5 and CSS3 for a modern, lightweight design.
 https://github.com/Parrotcodes/ISPWebAPp
 ```
 
+## Final Project - Garage Web for Register Cases via Live Web
+### Garage Management System (GMS) – Salesforce Lightning App
+A responsive HTML & CSS website for an Garage Management System(GMS) App showcasing plans, registration, and contact forms.  
+Includes customer registration (Web-to-Lead) and support case submission (Web-to-Case) integrated with Salesforce.  
+Built with pure HTML5 and CSS3 for a modern, lightweight design.
+
+The Garage Management System (GMS) is a full-featured Salesforce Lightning application designed to streamline and automate daily operations in a modern vehicle service garage. The system is built using Salesforce Standard Objects, Custom Objects, Flows, Apex, Automation, and Lightning Web Components (LWC) to provide an end-to-end solution for managing vehicles, services, parts inventory, employees, and customer interactions.
+#### Check Web link 👇
+[View Website](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/) | [Register New Case Here](https://parrotcodes.github.io/GMS-Final-Project-SalesforceApp/)
+
+```
+# Website Repo 👇
+
+https://github.com/Parrotcodes/GMS-Final-Project-SalesforceApp/
+```
+
 ## Tech Stack
 Java 17 | JDBC | JUnit | JSP | Servlet | HTML-CSS-JS + AJAX | Salesforce Development | Apex | Lightning Web Components
 
 ## Progress
-- **Days Completed:** 40 / 65
-- **Assignments Submitted:** 8 / 13
+- **Days Completed:** 55 / 65
+- **Assignments Submitted:** 11 / 13
 
 **Happy Coding!**
